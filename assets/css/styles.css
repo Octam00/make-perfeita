@@ -62,7 +62,6 @@
 
   /* Header */
   --header-h: 76px;
-  --bar-h: 38px;
 }
 
 /* --------------------------------------------------------------------------
@@ -515,40 +514,6 @@ p {
 /* --------------------------------------------------------------------------
    7. Header
    -------------------------------------------------------------------------- */
-.topbar {
-  background: var(--surface-ink);
-  color: var(--surface-ink-soft);
-  font-size: 0.7rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  overflow: hidden;
-}
-
-.topbar__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  height: var(--bar-h);
-}
-
-.topbar__note {
-  min-width: 0;
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.topbar__links {
-  display: flex;
-  gap: 1.4rem;
-}
-
-.topbar a:hover {
-  color: var(--gold-soft);
-}
-
 .header {
   position: sticky;
   top: 0;
@@ -2465,10 +2430,6 @@ p {
     grid-row: span 2;
   }
 
-  .topbar__links {
-    display: none;
-  }
-
   .hero__scroll {
     display: none;
   }
@@ -2593,7 +2554,6 @@ p {
 
 @media print {
   .header,
-  .topbar,
   .wa-float,
   .cart,
   .drawer,
