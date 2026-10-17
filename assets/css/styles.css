@@ -1300,6 +1300,19 @@ p {
   text-decoration: underline;
 }
 
+/* em telas estreitas o "WhatsApp" do card nao cabe ao lado do preco */
+@media (max-width: 560px) {
+  .product-card__foot {
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+  }
+
+  .product-card__wa span {
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
+  }
+}
+
 /* Carrossel */
 .carousel {
   position: relative;
@@ -2416,6 +2429,27 @@ p {
 
   .carousel__viewport > * {
     width: 78%;
+  }
+
+  /* no celular o carrossel vira uma grade de 2 colunas: sem rolagem lateral,
+     sem snap e sem setas, para nao depender do comportamento do navegador */
+  .carousel__viewport {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    overflow: visible;
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+    padding-bottom: 0;
+  }
+
+  .carousel__viewport > * {
+    width: auto;
+  }
+
+  .carousel__nav,
+  .carousel__progress {
+    display: none;
   }
 
   .gallery {
