@@ -115,22 +115,9 @@ window.CONFIG = {
       destaque: true,
       novidade: true,
       foto: 'assets/img/fotos/kit-labial-sarahs.webp',
-      imagens: ['assets/img/fotos/gloss-labial.webp'],
+      imagens: [],
       descricao: "Kit labial Sarah's Beauty com lápis de boca, gloss e batom no mesmo conjunto: pronto para usar ou para presentear.",
       specs: ['Lápis de boca', 'Lip gloss', 'Batom', 'Kit com 3 itens']
-    },
-    {
-      id: 'gloss-labial',
-      nome: 'Gloss Labial',
-      categoria: 'labiais',
-      preco: 0,
-      marca: '',
-      destaque: false,
-      novidade: false,
-      foto: 'assets/img/fotos/gloss-labial.webp',
-      imagens: ['assets/img/fotos/concha-surpresa.webp'],
-      descricao: 'Gloss labial para dar um up no visual e no humor. Chame no WhatsApp para conferir os tons e o valor.',
-      specs: ['Brilho na boca', 'Consulte tons', 'Chame no WhatsApp']
     },
     {
       id: 'concha-surpresa',
@@ -211,30 +198,17 @@ window.CONFIG = {
       specs: ['R$ 18,00 cada', 'Limão siciliano', 'Bloom Fantasy']
     },
     {
-      id: 'perfume-55',
-      nome: 'Perfume R$ 55,00',
+      id: 'perfume',
+      nome: 'Perfume a partir de R$ 45,00',
       categoria: 'perfumaria',
-      preco: 55.0,
+      preco: 45.0,
       marca: '',
       destaque: true,
       novidade: true,
       foto: 'assets/img/fotos/perfume-55.webp',
-      imagens: ['assets/img/fotos/perfume-45.webp'],
-      descricao: 'Novidade na Make Perfeita: perfume que encanta qualquer um, com fragrância marcante e saída garantida.',
-      specs: ['R$ 55,00', 'Fragrância marcante', 'Novo na loja']
-    },
-    {
-      id: 'perfume-45',
-      nome: 'Perfume R$ 45,00',
-      categoria: 'perfumaria',
-      preco: 45.0,
-      marca: '',
-      destaque: false,
-      novidade: false,
-      foto: 'assets/img/fotos/perfume-45.webp',
-      imagens: [],
-      descricao: 'Perfume que everybody pergunta: sai por R$ 45,00 e é o queridinho da loja.',
-      specs: ['R$ 45,00', 'Fragrância marcante', 'Queridinho da loja']
+      imagens: ['assets/img/fotos/perfume-55.webp'],
+      descricao: 'O perfume que todo mundo pergunta, saindo por R$ 45,00. Tem também a novidade de R$ 55,00 que chegou agora na loja.',
+      specs: ['Linha a partir de R$ 45,00', 'Novidade de R$ 55,00', 'Fragrância marcante', 'Envio para todo o Brasil']
     },
     {
       id: 'braceletes-aco',
@@ -309,7 +283,18 @@ window.CONFIG = {
     { src: 'assets/img/fotos/perfume-55.webp', alt: 'Perfume novo da Make Perfeita', legenda: 'Perfume novo' },
     { src: 'assets/img/fotos/geleia-hidratante.webp', alt: 'Geleia hidratante corporal da Make Perfeita', legenda: 'Geleia hidratante' },
     { src: 'assets/img/fotos/braceletes-aco.webp', alt: 'Braceletes de aço inoxidável expostos na loja', legenda: 'Braceletes' },
-    { src: 'assets/img/fotos/duo-iluminador-blush.webp', alt: 'Duo iluminador e blush', legenda: 'Duo iluminador e blush' },
-    { src: 'assets/img/fotos/urso-stitch.webp', alt: 'Urso Stitch de pelúcia', legenda: 'Urso Stitch' }
+    { src: 'assets/img/fotos/kits-presentear.webp', alt: 'Kits para presentear montados pela Make Perfeita', legenda: 'Kits para presentear' },
+    { src: 'assets/img/fotos/urso-stitch.webp', alt: 'Urso Stitch de pelúcia', legenda: 'Urso Stitch' },
+    { src: 'assets/img/fotos/concha-surpresa.webp', alt: 'Concha surpresa com 3 glosses', legenda: 'Concha surpresa' },
+    { src: 'assets/img/fotos/duo-iluminador-blush.webp', alt: 'Duo iluminador e blush', legenda: 'Iluminador e blush' },
+    { src: 'assets/img/fotos/esfoliante-labial-gloss.webp', alt: 'Esfoliante labial com lip gloss', legenda: 'Esfoliante labial' },
+    { src: 'assets/img/fotos/cola-salon-pro.webp', alt: 'Cola salon pro para cílios tufinhos', legenda: 'Cola salon pro' },
+    { src: 'assets/img/fotos/adesivo-acne.webp', alt: 'Adesivo para acne', legenda: 'Adesivo para acne' },
+    { src: 'assets/img/fotos/post-it.webp', alt: 'Post it adesivo da linha de $10', legenda: 'Linha de $10' },
+    { src: 'assets/img/fotos/sobremesa-morango.webp', alt: 'Sobremesa de morango', legenda: 'Sobremesa de morango' },
+    { src: 'assets/img/fotos/perfume-45.webp', alt: 'A vendedora da Make Perfeita com o perfume da loja', legenda: 'Perfume R$ 45' },
+    { src: 'assets/img/fotos/gloss-labial.webp', alt: 'Divulgação da loja Make Perfeita com o gloss em destaque', legenda: 'Divulgação da loja' },
+    { src: 'assets/img/fotos/destaque-horarios.webp', alt: 'Destaque de horários do Instagram', legenda: 'Horários' },
+    { src: 'assets/img/fotos/destaque-endereco.webp', alt: 'Destaque de endereço do Instagram', legenda: 'Endereço' }
   ]
 };
