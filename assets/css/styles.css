@@ -1306,15 +1306,15 @@ p {
 }
 
 .carousel__viewport {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: calc((100% - 3 * 1.5rem) / 4);
+  display: flex;
   gap: 1.5rem;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   padding-bottom: 0.5rem;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 .carousel__viewport::-webkit-scrollbar {
@@ -1322,6 +1322,9 @@ p {
 }
 
 .carousel__viewport > * {
+  flex: 0 0 auto;
+  width: calc((100% - 3 * 1.5rem) / 4);
+  min-width: 0;
   scroll-snap-align: start;
 }
 
@@ -2326,8 +2329,8 @@ p {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .carousel__viewport {
-    grid-auto-columns: calc((100% - 2 * 1.5rem) / 3);
+  .carousel__viewport > * {
+    width: calc((100% - 2 * 1.5rem) / 3);
   }
 
   .value-grid {
@@ -2411,8 +2414,8 @@ p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .carousel__viewport {
-    grid-auto-columns: minmax(0, 78%);
+  .carousel__viewport > * {
+    width: 78%;
   }
 
   .gallery {

@@ -292,8 +292,6 @@ window.CONFIG = {
     { src: 'assets/img/fotos/adesivo-acne.webp', alt: 'Adesivo para acne', legenda: 'Adesivo para acne' },
     { src: 'assets/img/fotos/post-it.webp', alt: 'Post it adesivo da linha de $10', legenda: 'Linha de $10' },
     { src: 'assets/img/fotos/sobremesa-morango.webp', alt: 'Sobremesa de morango', legenda: 'Sobremesa de morango' },
-    { src: 'assets/img/fotos/perfume-45.webp', alt: 'A vendedora da Make Perfeita com o perfume da loja', legenda: 'Perfume R$ 45' },
-    { src: 'assets/img/fotos/gloss-labial.webp', alt: 'Divulgação da loja Make Perfeita com o gloss em destaque', legenda: 'Divulgação da loja' },
     { src: 'assets/img/fotos/destaque-horarios.webp', alt: 'Destaque de horários do Instagram', legenda: 'Horários' },
     { src: 'assets/img/fotos/destaque-endereco.webp', alt: 'Destaque de endereço do Instagram', legenda: 'Endereço' }
   ]
