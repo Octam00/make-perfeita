@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FBF2F5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FDF9FB" stop-opacity=".92"/>
+      <stop offset=".6" stop-color="#FDF9FB" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#FDF9FB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9C6D6"/>
+      <stop offset=".35" stop-color="#F389AD"/>
+      <stop offset=".62" stop-color="#F9C6D6"/>
+      <stop offset="1" stop-color="#EB5A89"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F283A8"/>
+      <stop offset=".38" stop-color="#FBF2F5"/>
+      <stop offset="1" stop-color="#F283A8"/>
+    </linearGradient>
+    <linearGradient id="product" x1=".08" y1="0" x2=".92" y2="1">
+      <stop offset="0" stop-color="#FCF4F7"/>
+      <stop offset=".55" stop-color="#F8B6CB"/>
+      <stop offset="1" stop-color="#F48FB1"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/>
+      <stop offset=".32" stop-color="#FFFFFF" stop-opacity=".06"/>
+      <stop offset=".6" stop-color="#FFFFFF" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="velvet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8D1D44"/>
+      <stop offset="1" stop-color="#5E152C"/>
+    </linearGradient>
+    <filter id="soft" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="haze" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="64"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <ellipse cx="400" cy="340" rx="463.99999999999994" ry="420" fill="url(#glow)"/>
+  <ellipse cx="112.00000000000001" cy="800" rx="272" ry="300" fill="url(#glow)" opacity=".6"/>
+  <ellipse cx="704" cy="180" rx="208" ry="240" fill="url(#glow)" opacity=".45"/>
+  <circle cx="400" cy="560" r="352" fill="none" stroke="#F389AD" stroke-opacity=".2" stroke-width="1.4"/>
+  <circle cx="400" cy="560" r="312" fill="none" stroke="#F389AD" stroke-opacity=".1" stroke-width="1"/>
+  <ellipse cx="400" cy="860" rx="240" ry="28" fill="#D93C71" opacity=".22" filter="url(#soft)"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="150" fill="#F389AD" opacity=".5">MP</text>
+
+  <text x="400" y="942" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" letter-spacing="11" fill="#F389AD" opacity=".8">MAKE PERFEITA</text>
+</svg>
